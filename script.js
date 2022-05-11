@@ -16,6 +16,27 @@ var uppercases = confirm ("click ok you want uppercases");
 var lowercases = confirm ("click ok if you want lowercases");
 var characters = confirm ("click ok you want characters");
 
+var pass = [];
+var you = [];
+
+//Array here
+if (numbs) {
+  pass = pass.concat(num);
+}
+
+if (uppercases) {
+  pass = pass.concat(uppercaseL);
+}
+
+if (lowercases) {
+  pass = pass.concat(lowercaseL);
+}
+
+if (characters) {
+  pass = pass.concat(lowercaseL);
+}
+console.log(pass)
+
 }
 // Write password to the #password input
 function writePassword() {
